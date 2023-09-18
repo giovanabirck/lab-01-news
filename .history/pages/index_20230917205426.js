@@ -41,7 +41,6 @@ export default function News() {
               width={200}
               height={125}
               alt="alt"
-              className={styles.card_img}
             />
             <div className={styles.card_img_creator}>
               <h1 className={styles.h1}>{news01.title}</h1>

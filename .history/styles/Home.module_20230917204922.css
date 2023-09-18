@@ -1,0 +1,11 @@
+.card_news {
+    width: 70%;
+    height: 10%;
+    background-color: blueviolet;
+    display: flex;
+    
+}
+
+.h1 {
+    font-size: 1.5em;
+}

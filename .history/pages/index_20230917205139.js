@@ -35,21 +35,19 @@ export default function News() {
 
       <main>
         <div className={styles.card_news}>
-          <div className={styles.card_img_title}>
+          <div>
             <Image
               src={news01.image_url}
-              width={200}
-              height={125}
+              width={400}
+              height={300}
               alt="alt"
-              className={styles.card_img}
             />
-            <div className={styles.card_img_creator}>
-              <h1 className={styles.h1}>{news01.title}</h1>
-              <p>{news01.creator}</p>
-            </div>
+            <h1 className={styles.h1}>{news01.title}</h1>
+
           </div>
-          <p>{news01.description}</p>
           <p>{news01.link}</p>
+          <p>{news01.creator}</p>
+          <p>{news01.description}</p>
           
         </div>
         {/* title news01.title */}

@@ -1,0 +1,21 @@
+.card_news {
+    width: 70%;
+    height: 10%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card_img_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_img_creator {
+    
+}
+
+.h1 {
+    font-size: 1.4em;
+}

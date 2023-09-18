@@ -1,22 +1,19 @@
 .card_news {
-    width: 45%;
+    width: 50%;
     height: 10%;
     display: flex;
     flex-direction: column;
     padding: 2em;
     border: solid 1px;
-    border-color: lightgray;
+    border-color: light;
     border-radius: 16px;
+    
 }
 
 .card_img_title {
     display: flex;
     flex-direction: row;
     column-gap: 1em;
-}
-
-.card_img {
-    border-radius: 8px;
 }
 
 .card_img_creator {
