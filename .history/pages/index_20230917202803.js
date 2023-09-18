@@ -33,17 +33,9 @@ export default function News() {
       </Head>
 
       <main>
-        <div className='card_news'>
+        <div>
           <h1>{news01.title}</h1>
-          <Image
-            src={news01.image_url}
-            width={400}
-            height={300}
-            alt="alt"
-          />
-          <p>{news01.link}</p>
-          <p>{news01.creator}</p>
-          <p>{news01.description}</p>
+          <i>{news01.image_url}</div>
           
         </div>
         {/* title news01.title */}

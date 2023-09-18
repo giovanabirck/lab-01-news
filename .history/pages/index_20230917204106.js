@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const news01 = {
   "title": "Elon Musk asegura que la 'verdadera' deuda de EU es de al menos 60 billones de dólares",
@@ -33,7 +34,7 @@ export default function News() {
       </Head>
 
       <main>
-        <div className='card_news'>
+        <div>
           <h1>{news01.title}</h1>
           <Image
             src={news01.image_url}
@@ -42,8 +43,7 @@ export default function News() {
             alt="alt"
           />
           <p>{news01.link}</p>
-          <p>{news01.creator}</p>
-          <p>{news01.description}</p>
+          <p>{news01.link}</p>
           
         </div>
         {/* title news01.title */}

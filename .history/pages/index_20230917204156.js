@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const news01 = {
   "title": "Elon Musk asegura que la 'verdadera' deuda de EU es de al menos 60 billones de dólares",
