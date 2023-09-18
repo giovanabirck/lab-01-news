@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 
-export default function News() {
+export default function Home() {
   return (
     <>
       <Head>
@@ -10,7 +10,7 @@ export default function News() {
       </Head>
 
       <main>
-        <p>test</p>
+       <p>tset</p>
       </main>
     </>
   )

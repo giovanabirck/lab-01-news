@@ -10,8 +10,17 @@ export default function News() {
       </Head>
 
       <main>
-        <p>test</p>
+        <div>
+        <Avatar
+          image="https://randomuser.me/api/portraits/women/23.jpg"
+          name="Jane Dreams"
+          tagLine="I design and build awesome web applications"
+        />
+        </div>
+       
       </main>
     </>
   )
 }
+
+

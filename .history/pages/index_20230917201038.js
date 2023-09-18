@@ -11,6 +11,7 @@ export default function News() {
 
       <main>
         <p>test</p>
+       
       </main>
     </>
   )

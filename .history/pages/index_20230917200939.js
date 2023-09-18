@@ -10,7 +10,10 @@ export default function News() {
       </Head>
 
       <main>
-        <p>test</p>
+        <div>
+          
+        </div>
+       
       </main>
     </>
   )
